@@ -17,7 +17,7 @@ function feetToMile(feet) {
         }
         else
         {
-           return "Please enter a value greter then 0!";
+           return "Distance cannot be negative or 0!";
         }
      }
   }
@@ -46,7 +46,7 @@ function feetToMile(feet) {
       return totalWood;
   }
 
-  let woodMeasurement = woodCalculator(12,5,3);
+  let woodMeasurement = woodCalculator(6,5,3);
   //console.log(woodMeasurement);
 
 
@@ -84,25 +84,23 @@ function brickCalculator(floor)
    return totalQuantity;
 }
 
-let result = brickCalculator(22);
-//console.log(result);
+let totalBricks = brickCalculator(30);
+//console.log(totalBricks);
 
-//Question No. Four "Tiny Friend"
+// //Question No. Four "Tiny Friend"
 function tinyFriend(names){
 
-    let lowestLength = names[0].length;
-    let tinyName="";
+    let lowestLength = names[0];
     for(var i=0; i < names.length; i++){
-        if( names[i].length < lowestLength){
-            lowestLength = names[i].length;
-            tinyName = names[i];
-        }      
-    } 
-    return tinyName;  
+        let currentName = names[i];
+        if(currentName.length < lowestLength.length){
+            lowestLength = currentName;        
+        }
+    }
+    return lowestLength;
 }
 
-let array = ["Kaka","jon","Barbara","Modo"];
-let tinyFriendName = tinyFriend(array);
-//console.log(tinyFriendName);
+let friendsList = ["Kaka","Keka","Kokoa","kok"];
+//console.log(tinyFriend(friendsList));
 
   
