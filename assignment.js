@@ -1,5 +1,5 @@
 
-//Question No One "Convert Feet To Mile"
+//Question No. One "Convert Feet To Mile"
 
 function feetToMile(feet) {
     // Formula:
@@ -25,7 +25,7 @@ function feetToMile(feet) {
   //console.log(mile);
 
 
-  //Question No Two "Wood Calculator"
+  //Question No. Two "Wood Calculator"
   function woodCalculator(chair,table,bed){
     let woodForChair = 0;
     let woodForTable = 0;
@@ -50,7 +50,7 @@ function feetToMile(feet) {
   //console.log(woodMeasurement);
 
 
-//Question No Three "Brick Calculator"
+//Question No. Three "Brick Calculator"
 function brickCalculator(floor)
 {
     // Formula
@@ -87,7 +87,7 @@ function brickCalculator(floor)
 let result = brickCalculator(22);
 //console.log(result);
 
-//Question No Four "Tiny Friend"
+//Question No. Four "Tiny Friend"
 function tinyFriend(names){
 
     let lowestLength = names[0].length;
